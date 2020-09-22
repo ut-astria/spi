@@ -1,0 +1,10 @@
+*~
+log/
+data/
+TAGS
+*.log
+*.csv
+reports.json
+Rplots.pdf
+reports.png
+plot-dist.png
