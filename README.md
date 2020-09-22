@@ -39,7 +39,7 @@ code.  Once Go is installed, you should be able to download and
 compile the tools with
 
 ```Shell
-go get github.com/us-astria/spi/...
+go get github.com/ut-astria/spi/...
 ```
 
 
