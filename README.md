@@ -155,7 +155,7 @@ Example output:
 ### Streaming (demo)
 
 Streaming input and output is an important capability.  As new data
-streams in, new reports and cancelations of obsolete reports stream
+streams in, new reports and cancellations of obsolete reports stream
 out.  SPI is designed for systems that run continuously, processing
 data as it becomes available and feeding downstream systems
 asynchronously.
@@ -200,7 +200,7 @@ hours), and SPI can maintain a rolling window for that horizon.  When
 new TLEs arrive, those TLEs are continuously propagated (currently
 using [SGP4](sgp4)) through that rolling window as time passes.  SPI
 emits proximity reports asynchronously.  As updated TLEs are ingested
-by SPI, SPI generates both new proximity reports and cancelations of
+by SPI, SPI generates both new proximity reports and cancellations of
 obsolete previous reports.
 
 The underlying index is composed of subindexes for time slices.  These
